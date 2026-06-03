@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <input id="Screen" placeholder="0">
+    </div>
+            <div class="container">
+                <div class="buttons">
+                    <button class="inside-button AC" id="greyb" onclick="ClrScr()">AC</button>
+                    <button class="inside-button DEL" id="greyb" onclick="del()">DEL</button>
+                    <button class="inside-button Percentage" id="greyb" onclick="appendToScreen('%')">%</button>
+                    <button class="inside-button Divide" id="orgb" onclick="appendToScreen('/')">/</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('7')">7</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('8')" >8</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('9')">9</button>
+                    <button class="inside-button multiplication" id="orgb" onclick="appendToScreen('*')">*</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('4')">4</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('5')">5</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('6')">6</button>
+                    <button class="inside-button subtraction" id="orgb" onclick="appendToScreen('-')">-</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('1')">1</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('2')">2</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('3')">3</button>
+                    <button class="inside-button addition" id="orgb" onclick="appendToScreen('+')">+</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('00')">00</button>
+                    <button class="inside-button number" id="normal" onclick="appendToScreen('0')">0</button>
+                    <button class="inside-button" id="normal" onclick="appendToScreen('.')">.</button>
+                    <button class="inside-button result" id="orgb" onclick="Calculate()">=</button>
+                </div>
+            </div>
+    <script src="cal.js"></script>
+</body>
+</html>
